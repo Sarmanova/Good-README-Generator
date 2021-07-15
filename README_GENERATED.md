@@ -1,36 +1,38 @@
+
 # README.md
+        
+#Description
+This project will generate Readme file
 
-    
-     
-    #Description
-    This project will generate readme file
+# Table of Contents
+[Installation](#Installation)<br>
+[Usage](#Usage)<br>
+[Contributors](#Contributing)<br>
+[Test](#Test)<br>
+[Questions](#Questions)<br>
 
-    # Table of Contents
-    [Installation](#Installation)
-    [Usage](#Usage)
-    [Contributors](#Contributing)
-    [Test](#Test)
-    [Questions](#Questions)
+# Installation
+install it
 
-    #Installation
-    install it
+# Usage
+answer questions 
 
-    #Usage
-    answers to promts
+# Code
+    npm start
 
-    #License
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    <br>
-    it is covered with MIT Licenselicense
+# License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br>
+it is covered with MIT Licenselicense
 
-    #Contributing
-    open it 
+# Contributing
 
-    #Tests
-    no test 
 
-    #Questions
-    Created by Zhansaya Sarmanova
-    <br>
-    Email me:zhansayasarmanova1993@gmail.com
+# Tests
+no test
+
+# Questions
+Created by Zhansaya Sarmanova
+<br>
+Email me:zhansayasarmanova1993@gmail.com
     

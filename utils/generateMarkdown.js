@@ -13,49 +13,51 @@ function renderLicenseBadge(license) {
 // If there is no license, return "unlock"
 function renderLicenseSection(license) {
     if (`${license}` == "unlock") {
-        return `it is not covered by a license`
+        return `it is not covered by a license`;
     } else {
-        return `it is covered with ${license}license`
+        return `it is covered with ${license}license`;
     }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(responses) {
-    return `# ${responses.title}
+    return `
+# ${responses.title}
+        
+#Description
+${responses.description}
 
-    
-     
-    #Description
-    ${responses.description}
+# Table of Contents
+[Installation](#Installation)<br>
+[Usage](#Usage)<br>
+[Contributors](#Contributing)<br>
+[Test](#Test)<br>
+[Questions](#Questions)<br>
 
-    # Table of Contents
-    [Installation](#Installation)
-    [Usage](#Usage)
-    [Contributors](#Contributing)
-    [Test](#Test)
-    [Questions](#Questions)
+# Installation
+${responses.installation}
 
-    #Installation
-    ${responses.installation}
+# Usage
+${responses.usage}
 
-    #Usage
-    ${responses.usage}
+# Code
+    npm start
 
-    #License
-    ${renderLicenseBadge(responses.license)}
-    <br>
-    ${renderLicenseSection(responses.license)}
+# License
+${renderLicenseBadge(responses.license)}
+<br>
+${renderLicenseSection(responses.license)}
 
-    #Contributing
-    ${responses.contribution}
+# Contributing
+${responses.contribution}
 
-    #Tests
-    ${responses.test}
+# Tests
+${responses.test}
 
-    #Questions
-    Created by ${responses.username}
-    <br>
-    Email me:${responses.email}
+# Questions
+Created by ${responses.username}
+<br>
+Email me:${responses.email}
     `;
 }
 
