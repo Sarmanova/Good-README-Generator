@@ -15,7 +15,7 @@ function renderLicenseSection(license) {
     if (`${license}` == "unlock") {
         return `it is not covered by a license`;
     } else {
-        return `it is covered with ${license}license`;
+        return `it is covered with ${license}`;
     }
 }
 
@@ -24,7 +24,7 @@ function generateMarkdown(responses) {
     return `
 # ${responses.title}
         
-#Description
+# Description
 ${responses.description}
 
 # Table of Contents

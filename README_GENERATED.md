@@ -1,8 +1,8 @@
 
 # README.md
         
-#Description
-This project will generate Readme file
+# Description
+This project will generate README file
 
 # Table of Contents
 [Installation](#Installation)<br>
@@ -12,10 +12,10 @@ This project will generate Readme file
 [Questions](#Questions)<br>
 
 # Installation
-install it
+download here
 
 # Usage
-answer questions 
+answer questions
 
 # Code
     npm start
@@ -23,13 +23,13 @@ answer questions
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <br>
-it is covered with MIT Licenselicense
+it is covered with MIT License
 
 # Contributing
-
+input goes here
 
 # Tests
-no test
+no test here
 
 # Questions
 Created by Zhansaya Sarmanova
